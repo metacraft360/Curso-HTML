@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atributos_forms</title>
+    </head>
+    <body> <!-- aqui vamos a poner solo inputs de texto porque solo veremos los atributos que es lo que está al lado del type, no el text, email.. sino el siguiente. Se pueden poner varios valores a la vez.-->
+        <form>
+            <input type="text" required> <!-- sirve para hacer obligatorio el cubrir el campo-->
+            <input type="text" name="username"> <!--¡MUY IMPORTANTE!Esto sirve para cuando alguien hace el formulario y lo envía el servidor que lo recibe sepa que es cada campo, por ejemplo, username. Se usa para identificar inputs-->
+            <input type="text" placeholder="Nombre de usuario"> 
+            <!-- se usa para poner un texto que aparece en el campo, pero cuando entras en el campo desaparece. Es como una guía para saber lo que tienes que poner en el. Se ponen ejemplos de lo que hay que escribir tambien. Como un email aleatorio.-->
+             <input type="text" value="dwsawda"> <!--Es un texto que aparece en el campo antes de ser rellenado y que hay que borrar. Se suelae usar en los "radio" para saber que estas seleccionando.-->
+             <input type="text" required minlength="3" maxlength="10">
+             <!-- minlenght sería para una longitud de por ejemplo un texto de 3 caracteres, y un máximo de 10. Se usa en para inputs de password para la la seguridad.-->
+             <input type="submit" value="Inciar sesión">
+             <!-- este ultimo esta para probar a enviar el form.-->
+
+
+        </form>
+
+    </body>
+</html>
